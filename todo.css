@@ -1,0 +1,68 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+#main {
+    border: 2px solid rgb(177, 1, 177);
+    padding: 5% 10%;
+}
+
+
+.taskAdding {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.taskAdding h1{
+    padding-bottom: 1%;
+    color: rgb(110, 0, 183);
+    font-size: 4rem;
+}
+
+
+#task {
+    padding: 10px;
+    margin-left: 1%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid rgb(117, 0, 117);
+    background-color: rgb(255, 202, 255);
+    color: rgb(117, 0, 117);
+    text-align: center;
+}
+
+
+#btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 230, 0);
+    background-color: rgb(187, 0, 187);
+    border: 1px solid rgb(135, 0, 135);
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+
+.mylist {
+    padding: 0 2% 2% 2%;
+    border: 2px double rgb(190, 0, 140) ;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mylist ul {
+    list-style: none;
+}
+
+
+#taskList li {
+    border-bottom: 2px solid rgb(238, 165, 219);
+    padding-bottom: 1%;
+    padding-top: 4%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(75, 0, 125);
+}
